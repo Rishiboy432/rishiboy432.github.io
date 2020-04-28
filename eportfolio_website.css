@@ -1,0 +1,220 @@
+header{
+  width: 100%;
+  background-color: #3C88EC;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+body, html {
+   font-family: Comic Sans, Cambria, Arial;
+  background-color: #AEAEAE;
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+
+/* tab styling*/
+.tab {
+
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #3C88EC;
+}
+
+/*Code for the buttons*/
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 1s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  position: relative;
+  background-size: cover;
+}
+.tabcontent img{ 
+  max-height: 700px;
+  max-width: 800px;
+  border: 5px solid;
+  border-color: black;
+
+}
+
+h1, h2, h3{
+  text-align: center;
+  color: black;
+}
+
+p, li{
+  color: #620000;
+  font-size: 14px;
+}
+
+.container {
+  position: fixed;
+  text-align:;
+  color: white;
+  height: 80%;
+  width: 100%;
+}
+
+header h1{
+  font-size: 40px;
+  color: white;
+
+}
+ 
+
+body{ 
+  background-color: ##F8F9F9;
+  font-family: Comic Sans, Cambria, Arial;
+  font-size: 15px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /*height: 2.5rem;*/
+  background-color: #3C88EC;
+  text-align: center;
+  text-color:white;
+  color: white;
+  padding: 15px;
+}
+
+footer p{
+  margin: 0;
+  color: white;
+}
+
+footer a: hover{
+  color: white;
+}
+
+
+/* HOME  */
+/* Split the screen in half */
+.splithome {
+  height: 90%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.lefthome {
+  left: 0;
+}
+
+/* Control the right side */
+.righthome {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centeredhome {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centeredhome img {
+  width: 350px;
+  border: 90%;
+  border-color: #666 red
+}
+
+.background_home {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("img/windows-xp-background-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+/* ABOUT  */
+
+/* Split the screen in 20/80*/
+.splitabout {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Control the left side */
+.leftabout {
+  left: 0;
+  background-color: none;
+}
+
+/* Control the right side */
+.rightabout {
+  right: 0;
+  background-color: none;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centeredabout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  line-height: 2;
+}
+
+
+.centeredabout img {
+  width: 300px;
+  border: 90%;
+
+}
+
+.background_about {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("img/Tennis.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.background_assignment {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("img/Tech.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+a{
+  color: #f34607;
+}
+
+a:hover{
+  color: #483a94;
+}
